@@ -1,0 +1,64 @@
+1. Basics of Rust
+Installation and setup (Rustup, Cargo, and IDEs like VSCode)
+Writing and running a "Hello, World!" program
+Rust syntax basics (variables, constants, and mutability)
+Data types (scalar and compound types)
+
+2. Control Flow
+Conditionals (if, else, else if)
+Loops (loop, while, for)
+Pattern matching with match
+Error handling (unwrap, expect, Result, Option)
+
+3. Ownership and Borrowing
+Ownership rules
+Borrowing (& and &mut)
+Lifetimes and annotations
+
+4. Functions and Modules
+Writing and calling functions
+Function arguments and return values
+Closures and their syntax
+Modules and importing (mod, use)
+
+5. Structs, Enums, and Traits
+Defining and using structs
+Associated methods and impl
+Enum basics and pattern matching
+Traits and implementing them
+
+6. Collections and Iterators
+Vectors, Strings, HashMaps
+Iterators and their adaptors (e.g., map, filter, collect)
+
+7. Error Handling
+Result and Option in-depth
+Error propagation (? operator)
+Custom error types
+
+8. Concurrency
+Threads and the std::thread module
+Mutexes, RwLocks, and Arc
+The async/await paradigm for asynchronous programming
+
+9. Memory Management
+Smart pointers (Box, Rc, Arc, RefCell)
+Understanding the Heap vs. Stack
+Interior mutability
+
+10. Advanced Features
+Generics and their constraints
+Macros (macro_rules! and procedural macros)
+Unsafe Rust basics
+
+11. Tooling and Ecosystem
+Using Cargo effectively (workspaces, scripts, testing)
+Dependency management with Cargo.toml
+Writing and running tests
+Using Rust tools (clippy, rustfmt, miri)
+
+12. Practical Application
+Building CLI tools
+Working with files and networking
+Interfacing with external libraries (FFI, crates)
+Understanding and contributing to open-source Rust projects
