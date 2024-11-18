@@ -10,5 +10,8 @@ fn main() {
 
     x = 10;
     println!("The mutated value of x is {}", x);
+
+    let x = 54; // shadowing the previous varialbe name
+    println!(" New variable x holds this value {}", x);
     
 }
