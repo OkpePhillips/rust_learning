@@ -60,7 +60,8 @@ fn main() {
     println!("The second element is {}", second_element);
 
     // Array
-    let new_array = [2, 3, 4, 5, 6];    
+    let new_array = [2, 3, 4, 5, 6]; 
+    println!("The 4th element of the array is {}", new_array[3]);   
 }
 
 
