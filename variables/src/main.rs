@@ -51,7 +51,7 @@ fn main() {
     // Tuple
     let tup: (i32, f64, u8) = (500, 6.4, 1);
 
-    let (a, b, c) = tup;
+    let (a, _b, _c) = tup;
 
     println!("The value of a is {}", a);
 
